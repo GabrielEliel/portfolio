@@ -1,0 +1,63 @@
+html {
+    font-family: 'Aboreto', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+header {
+    margin: 1rem;
+    float: right;   
+}
+h1{
+    font-size: 3rem;
+}
+
+body {
+    color: wheat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box:hover {
+    background-color: wheat;
+    color: black;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+}
+
+img {
+    transition: all 0.3s ease;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+img:hover{
+        box-shadow: 0 0.3rem 0.9rem wheat;
+}
+.container {
+    width: 400;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+#inicio {
+    text-align: center;
+}
+footer{
+    transition: all 0.3s ease;
+    margin: 1rem;
+    text-align: left;
+}
+#footer:hover{
+    color: black;
+    background-color: wheat;
+}
+
+#foto {
+    height: 400px;
+    width: auto;
+}
